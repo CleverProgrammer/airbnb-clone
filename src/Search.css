@@ -3,6 +3,7 @@
     top: 35px;
     left: 25%;
     width: 100vw;
+    z-index: 100;
 }
 
 .search > h2 {
@@ -12,18 +13,13 @@
     width: 559px;
     padding: 10px;
     background-color: white;
-    position: absolute;
-    left: 0;
-    top: 380px;
+
 }
 
 .search > input {
     width: 539px;
     padding: 20px;
-    position: absolute;
-    left: 0;
     height: 30px;
-    top: 420px;
     border: none;
   }
   
@@ -32,9 +28,6 @@
 }
 
 .search > button {
-    position: absolute;
-    left: 0;
-    top: 480px;
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
@@ -45,3 +38,4 @@
     background-color: white;
     color: #ff7779;
 }
+
