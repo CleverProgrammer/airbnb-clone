@@ -4,6 +4,10 @@
     left: 25%;
     width: 100vw;
     z-index: 100;
+    display: flex;
+    flex-flow: column;
+    width: 579px;
+    background-color: white;
 }
 
 .search > h2 {
@@ -13,7 +17,6 @@
     width: 559px;
     padding: 10px;
     background-color: white;
-
 }
 
 .search > input {
@@ -31,7 +34,8 @@
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
-    width: 579px;
+    width: 559px;
+    margin: 10px;
   }
 
 .search > button:hover {
